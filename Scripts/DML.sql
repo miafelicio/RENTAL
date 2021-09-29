@@ -11,4 +11,14 @@ VALUES
 ('Nestle'),
 ('Toddy'),
 ('Nike'),
-('
+('Sei mais não')
+GO
+
+INSERT INTO TIPOS_VEICULOS(nomeTipo)
+VALUES
+('Carro'),
+('Moto'),
+('Van')
+GO
+
+INSERT INTO MODELO(idMarca,idTiposVeiculos
